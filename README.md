@@ -1,0 +1,3 @@
+# Insufficient Error Handling in Asynchronous Dart Operations
+
+This repository demonstrates a common error in Dart asynchronous programming: inadequate error handling.  The `bug.dart` file shows code with a `try-catch` block that catches general exceptions, but it might miss specific error types or fail to provide user-friendly error messages.  The improved version (`bugSolution.dart`) shows how to address this, creating more robust and informative error handling.
